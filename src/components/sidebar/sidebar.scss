@@ -43,8 +43,55 @@
                 align-items: center;
                 padding: 10px;
                 cursor: pointer;
+
+                &:hover{
+                    background-color: #e4e4e4;
+                }
+
+                .icon{
+                    font-size: 18px;
+                    color: #321c81;
+                }
+
+                span{
+                    font-weight: 600;
+                    font-size: 13px;
+                    color: #575151;
+                    margin-left: 10px;
+                }
             }
         }
 
+    }
+
+    .bottom{
+        display: flex;
+        margin: 10px;
+        align-items: center;
+
+        .title{
+            font-size: 13px;
+            font-weight: bold;
+            color: #999;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .colorOptions{
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #7451f8;
+            cursor: pointer;
+            margin: 5px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #000;
+            }
+        
+        }
     }
 }
