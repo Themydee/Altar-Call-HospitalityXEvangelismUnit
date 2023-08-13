@@ -3,6 +3,8 @@ import './home.scss'
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Widgets from '../../components/widgets/Widgets'
+import Chart from '../../components/chart/Chart'
+import Featured from '../../components/featured/Featured'
 
 const Home = () => {
   return (
@@ -17,7 +19,10 @@ const Home = () => {
           <Widgets type='bfc'/>
         </div>
 
-        <div className="charts"></div>
+        <div className="charts">
+          <Featured />
+          <Chart />
+        </div>
       </div>
     </div>
 
