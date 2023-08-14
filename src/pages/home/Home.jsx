@@ -5,6 +5,7 @@ import Sidebar from '../../components/sidebar/Sidebar'
 import Widgets from '../../components/widgets/Widgets'
 import Chart from '../../components/chart/Chart'
 import Featured from '../../components/featured/Featured'
+import Table from '../../components/table/Table'
 
 const Home = () => {
   return (
@@ -27,6 +28,9 @@ const Home = () => {
         <div className="listContainer">
           <div className="listTitle">
             Converts
+            <br />
+            <br />
+            <Table />
           </div>
         </div>
       </div>

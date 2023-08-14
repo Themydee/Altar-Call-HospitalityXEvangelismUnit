@@ -12,8 +12,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <div className='top'><span className="logo">New Converts Dashboard</span></div>
-      <hr />
+      <div className='top'><span className="logo">Hospitality Unit</span></div>
       <hr />
       <div className='center'>
         <ul>
