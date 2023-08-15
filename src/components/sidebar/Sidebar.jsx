@@ -9,23 +9,31 @@ import WaterfallChartIcon from '@mui/icons-material/WaterfallChart';
 import AnnouncementIcon from '@mui/icons-material/Announcement';
 import TuneIcon from '@mui/icons-material/Tune';
 import LogoutIcon from '@mui/icons-material/Logout';
+import {Link} from 'react-router-dom'
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <div className='top'><span className="logo">New Converts Dashboard</span></div>
+      <Link to='/' style={{textDecoration:'none'}}>
+        <div className='top'><span className="logo">New Converts Dashboard</span></div>
+      </Link>
       <hr />
       <div className='center'>
         <ul>
           <p className="title">Main</p>
           <li>
             <DashboardIcon className='icon' />
-            <span>Dashboard</span>
+
+            <Link to='/' style={{textDecoration:'none'}}>
+              <span>Dashboard</span>
+            </Link>
           </li>
 
           <p className="title">Converts</p>
           <li>
             <ChurchIcon className='icon'/>
+            <Link to='/users' style={{textDecoration:'none'}}>
             <span>Total Converts</span>
+            </Link>
           </li>
           {/* <li>
             <EscalatorWarningIcon className='icon'/>

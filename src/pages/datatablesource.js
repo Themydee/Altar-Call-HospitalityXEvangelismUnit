@@ -1,6 +1,7 @@
 export const columns = [
     { field: 'id', headerName: 'ID', width: 30 },
     { field: 'name', headerName: 'Name', width: 130 },
+    { field: 'dept', headerName: 'Department', width: 80 },
     { field: 'level', headerName: 'Level', type: 'number', width: 40},
     { 
         field: 'reg', 
@@ -15,7 +16,6 @@ export const columns = [
         width: 60
     },
     { field: 'hall', headerName: 'Hall', type: 'number', width: 60},
-    { field: 'dept', headerName: 'Department', width: 80 },
     { field: 'webmail', headerName: 'Webmail', width: 200 },
     { 
         field: 'status', 

@@ -8,11 +8,11 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';  
-
+import'./style/dark.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app ">
       <BrowserRouter>
         <Routes>
           <Route path="/" >

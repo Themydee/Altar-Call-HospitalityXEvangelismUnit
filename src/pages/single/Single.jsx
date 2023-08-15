@@ -14,7 +14,6 @@ const Single = () => {
         <Navbar />
         <div className="top">
           <div className="left">
-            <div className="editButton">Edit </div>
             <div className="title">Converts Info.</div>
             <div className="item">
               <div className="details">
@@ -62,7 +61,6 @@ const Single = () => {
           </div>
         </div>
         <div className="bottom">
-          <div className="title">Converts</div>
           <Table />
         </div>
       </div>
