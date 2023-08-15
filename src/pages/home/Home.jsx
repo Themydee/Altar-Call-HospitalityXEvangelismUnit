@@ -25,14 +25,14 @@ const Home = () => {
           <Chart />
         </div>
 
-        <div className="listContainer">
+        {/* <div className="listContainer">
           <div className="listTitle">
             Converts
             <br />
             <br />
             <Table />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
 

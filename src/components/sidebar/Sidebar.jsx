@@ -12,7 +12,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-      <div className='top'><span className="logo">Hospitality Unit</span></div>
+      <div className='top'><span className="logo">New Converts Dashboard</span></div>
       <hr />
       <div className='center'>
         <ul>
@@ -27,14 +27,14 @@ const Sidebar = () => {
             <ChurchIcon className='icon'/>
             <span>Total Converts</span>
           </li>
-          <li>
+          {/* <li>
             <EscalatorWarningIcon className='icon'/>
             <span>New Converts</span>
           </li>
           <li>
             <DirectionsRunIcon className='icon'/>
             <span>Rededication</span>
-          </li>
+          </li> */}
 
           <p className="title">Useful</p>
           <li>

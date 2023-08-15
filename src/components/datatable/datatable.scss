@@ -1,0 +1,50 @@
+.datatable{
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Rededication{
+            background-color: rgb(83, 179, 179);
+            color: rgb(168, 113, 10);
+        }
+
+        &.NewConvert{
+            background-color: rgb(186, 194, 201);
+            color: rgb(128, 18, 91);
+        }
+    }
+
+    .cellWithBaptized, .cellWithSpirit{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Yes{
+            color: rgb(10, 168, 23);
+        }
+
+        &.No{
+            color: rgb(255, 0, 0);
+        }
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+        .viewButton{
+            padding: 2px 5px; 
+            border-radius: 5px;
+            color: rgb(163, 93, 2);
+            border: 1px dashed rgb(207, 111, 0);
+        }
+
+        .deleteButton{
+
+        }
+    }
+}
