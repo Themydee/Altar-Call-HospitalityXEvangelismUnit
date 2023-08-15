@@ -6,6 +6,7 @@ import Widgets from '../../components/widgets/Widgets'
 import Chart from '../../components/chart/Chart'
 import Featured from '../../components/featured/Featured'
 import Table from '../../components/table/Table'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -22,17 +23,12 @@ const Home = () => {
 
         <div className="charts">
           <Featured />
-          <Chart />
+          <Chart  aspect={2/1}/>
         </div>
 
-        {/* <div className="listContainer">
-          <div className="listTitle">
-            Converts
-            <br />
-            <br />
-            <Table />
-          </div>
-        </div> */}
+      <div className="footer">
+        <Footer />
+      </div>
       </div>
     </div>
 

@@ -34,17 +34,22 @@
     .cellAction{
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 6px;
         
         .viewButton{
-            padding: 2px 5px; 
+            padding: 2px 3px; 
             border-radius: 5px;
             color: rgb(163, 93, 2);
             border: 1px dashed rgb(207, 111, 0);
+            cursor: pointer;
         }
 
         .deleteButton{
-
+            padding: 2px 3px; 
+            border-radius: 5px;
+            color: rgb(187, 7, 7);
+            border: 1px dashed rgba(207, 0, 0, 0.856);
+            cursor: pointer;
         }
     }
 }
