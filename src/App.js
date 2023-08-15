@@ -8,7 +8,6 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';  
-import'./style/dark.scss';
 
 function App() {
   return (
