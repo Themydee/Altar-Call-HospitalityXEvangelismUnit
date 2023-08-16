@@ -1,9 +1,11 @@
 import React from 'react'
-import './login.scss'
+import Form from '../../components/form/Form'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <div className='login'>
+        <Form />
+    </div>
   )
 }
 
