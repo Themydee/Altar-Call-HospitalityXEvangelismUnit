@@ -16,7 +16,6 @@ const Home = () => {
           <Widgets type='totalconverts'/>
           <Widgets type='newconverts'/>
           <Widgets type='rededication'/>
-          <Widgets type='bfc'/>
         </div>
 
         <div className="charts">

@@ -16,7 +16,7 @@
         .search{
             display: flex;
             align-items: center;
-            border: 0.5px soli lightgray;
+            border: 0.5px solid lightgray;
             padding: 3px;
 
             input{
@@ -69,5 +69,48 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 1050px){
+    .navbar{
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 950px){
+    .navbar{
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 850px){
+    .navbar{
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 650px){
+    .navbar{
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 500px){
+    .navbar{
+        align-items: center;
+
+    }
+}
+
+
+@media (max-width: 350px){
+    .navbar{
+        align-items: center;
+
     }
 }

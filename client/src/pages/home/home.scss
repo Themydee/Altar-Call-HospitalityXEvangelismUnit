@@ -28,3 +28,89 @@
         }
     }
 }
+
+@media (max-width: 1050px){
+    .home{
+        display: flex;
+
+        .homeContainer{
+            flex: 5;
+
+            .widgets, .charts{
+                align-items: center;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 950px){
+    .home{
+        display: flex;
+
+        .homeContainer{
+            flex: 5;
+
+            .widgets, .charts{
+                align-items: center;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 850px){
+    .home{
+        display: flex;
+
+        .homeContainer{
+            flex: 5;
+
+            .widgets, .charts{
+                align-items: center;
+            }
+        }
+
+    }
+}
+
+
+@media (max-width: 650px){
+    .home{
+        display: flex;
+
+        .homeContainer{
+            flex: 5;
+
+            .widgets, .charts{
+                align-items: center;
+                gap: 10px;
+            }
+
+            .featured{
+                display: none;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 500px){
+    .home{
+        display: flex;
+
+        .homeContainer{
+            flex: 5;
+
+            .widgets, .charts{
+                align-items: center;
+                gap: 10px;
+            }
+
+            .featured{
+                display: none;
+            }
+        }
+
+    }
+}

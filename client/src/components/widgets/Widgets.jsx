@@ -45,17 +45,7 @@ const Widgets = ({ type }) => {
                 )
             };
         break;
-        case 'bfc':
-            data = {
-                title: 'Believers Foundation Class',
-                isCount: true,
-                link: 'View all',
-                icon: (
-                    <ChurchIcon className='icon'/>
-                )
-            };
-        default:
-            break;
+
 
     }
   return (
