@@ -22,7 +22,17 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cors());
 
 /* ROUTES */
-app.use("/converts", converts);
-app.use("/breakdown", breakdown);
-app.use("/management", management);
-app.use("/general", general)
+app.use("/converts", convertsRoutes);
+app.use("/breakdown", breakdownRoutes);
+app.use("/management", managementRoutes);
+app.use("/general", generalRoutes)
+
+/* MONGOOSE SETUP */
+const PORT = process.env.PORT || 9000;
+mongoose.connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(() => {
+    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+})
+.catch((error) => console.log(`${error} did not connect`))
