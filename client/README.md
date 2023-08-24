@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+![Alt](https://repobeats.axiom.co/api/embed/432ecca2cd15287da8bea86bae6f7682162427f6.svg "Repobeats analytics image")
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
